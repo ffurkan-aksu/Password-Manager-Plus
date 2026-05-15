@@ -1,6 +1,4 @@
 # Password Manager Plus
-#### Video Demo:  https://youtu.be/PoUhWFqkXyY
-#### Description: Final Project For CS50P
 
 Welcome to Password Manager Plus! 
 
