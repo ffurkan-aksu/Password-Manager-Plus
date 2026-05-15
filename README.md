@@ -20,3 +20,10 @@ Password Manager Plus includes the following features:
 - `user_database.json` & `account_database.json`: These are automatically created by the program to store user data.
 - 'secret.key': An automatically generated key file used by Fernet to encrypt and decrypt the saved passwords.
 
+### How to Run
+1. Make sure you have installed the required libraries by running:
+   `pip install -r requirements.txt`
+2. Run the main program:
+   `python project.py`
+3. To run the automated tests:
+   `pytest test_project.py`
