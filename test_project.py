@@ -22,6 +22,7 @@ def test_check_username_validity():
         "David": {"user_id": 1},
         "Harry": {"user_id": 2}
     }
+
     
     assert check_username_validity("", test_dict) == "Empty"
     assert check_username_validity("David", test_dict) == "Taken"
