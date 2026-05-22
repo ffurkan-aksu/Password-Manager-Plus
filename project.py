@@ -16,7 +16,6 @@ registered_users = {}
 accounts = {}
 user_id = 1
 
-
 def register():
     global user_id
     username = input("Username: ").strip()
