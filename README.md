@@ -25,3 +25,5 @@ Password Manager Plus includes the following features:
    `python project.py`
 3. To run the automated tests:
    `pytest test_project.py`
+
+   Note: Python version 3.14.3 is recommended for use.
