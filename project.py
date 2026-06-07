@@ -232,7 +232,7 @@ def add_account(user_id):
     if username == "":
         print(f"{YELLOW}Please Enter A Valid Username!{RESET}")
         return
-    password = input("Password: ").strip()
+    password = getpass.getpass("Password: [Hidden]").strip()
     if password == "":
         print(f"{YELLOW}Please Enter A Valid Password!{RESET}")
         return
