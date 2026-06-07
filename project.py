@@ -232,7 +232,7 @@ def add_account(user_id):
     if username == "":
         print(f"{YELLOW}Please Enter A Valid Username!{RESET}")
         return
-    password = getpass.getpass("Password: [Hidden]").strip()
+    password = getpass.getpass("Password: (Hidden)").strip()
     if password == "":
         print(f"{YELLOW}Please Enter A Valid Password!{RESET}")
         return
@@ -401,5 +401,4 @@ f = Fernet(key)
 if __name__ == "__main__":
     
     main()
-
 
